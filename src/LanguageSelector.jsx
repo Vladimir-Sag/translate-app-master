@@ -62,7 +62,7 @@ export default function LanguageSelector({
                     id={firstCard ? "source-language" : "target-language"}
                     aria-label="Choose language to translate to" 
                     onChange={(e)=>handleSelect(e)}>
-                {/* <option value="" disabled hidden>More languages</option> */}
+                <option value="" disabled hidden>More languages</option>
                 {
                     !(firstCard && outputLang==='es' || secondCard && inputLang==='es')&&
                     <option value="es" aria-label="Spanish language">Spanish</option>
