@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="preload" as="image" href="/logo.svg" fetchpriority="high">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Translate text between English, French, German, Spanish, Italian. Text-to-speech, copy to clipboard, and real-time translation.">
+    <meta name="keywords" content="translator, free translator, text translator, language translation, speech synthesis">
+    <title>translate app master</title>
+    <style>
+      body{
+        background-image: url('/hero_img-sm.webp');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center top;
+        background-color: var(--bg-dark);
+        min-height: 100vh;
+      }
+      @media (min-width:1024px){
+        body{
+          background-image:url('/hero_img.webp');
+          background-size: contain;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
