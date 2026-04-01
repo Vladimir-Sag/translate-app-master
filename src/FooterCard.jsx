@@ -66,7 +66,7 @@ export default function FooterCard({firstCard,inputLang,outputLang,originalText,
             {firstCard&&
                 <button type='button' 
                     className='button-translate'
-                    aria-label="Translate text"
+                    aria-label="Translate"
                     onClick={()=>setTranslate(prev=>prev+1)}
                 ><span><img src={Alfa} alt="A" /></span><span>Translate</span></button>
             }

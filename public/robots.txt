@@ -1,4 +1,2 @@
 User-agent: *
 Allow: /
-
-//Sitemap: https://твой-сайт.com/sitemap.xml

@@ -149,6 +149,7 @@ main{
   letter-spacing: 0.105em;
   color: var(--text-primary);
   height: 133px;
+  min-height: 100px;
   resize: none;
 }
 .card-count-symbol{
@@ -195,6 +196,7 @@ main{
   border:1px solid var(--text-secondary);
   background-color: var(--accent);
   border-radius: 12px;
+  color: var(--text-primary);
 }
 .button-translate img{
   transform: translateY(2px);

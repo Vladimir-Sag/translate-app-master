@@ -3,8 +3,8 @@
 ![Language Translator Thumbnail](./thumbnail.jpg)
 
 ## 🎯 Live Demo
-🔗 [View Live Demo](https://your-translator-app.vercel.app/)  
-📦 [GitHub Repository](https://github.com/Vladimir-Sag/language-translator)
+🔗 [View Live Demo](https://translate-app-master-one.vercel.app/)  
+📦 [GitHub Repository](https://github.com/Vladimir-Sag/translate-app-master)
 
 ---
 
